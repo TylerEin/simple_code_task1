@@ -51,3 +51,4 @@ for (int i = 0;i< ints.Length; i++)
 Console.WriteLine("\nHаименьший элемент массива равен " + minNumber);
 Console.ReadLine();
 //Найти наименьшее число массива{end}
+//====================================
