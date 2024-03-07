@@ -16,6 +16,8 @@ for (int i = ints.Length - 1; i >= 0; i--) Console.WriteLine(ints[i]);
 int sum = 0;
 for (int i = 0; i < ints.Length; i++) if (ints[i] % 2 == 0) sum += ints[i];
 Console.WriteLine("Сумма четных элементов массива равна " + sum);
+//Альтернативный метод =>
+Console.WriteLine("\n[Alternative]\nСумма четных элементов массива равна " + ints.Where(i=>i%2==0).Sum());
 //Найти сумму четных элементов массива{end}
 //====================================
 //Найти наименьшее число массива
